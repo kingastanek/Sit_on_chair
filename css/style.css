@@ -49,7 +49,53 @@ li:last-child {
   margin-right: 70px;
 }
 
-
 span {
   color: rgb(36, 186, 159);
+}
+
+.main_width {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.img, .text {
+  float: left;
+  width: 50%;
+}
+
+div.text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.text p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(36, 186, 159);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+  margin-left: 122.5px;
+}
+
+.bg {
+  background: background: rgba(254,254,254,1);
+  background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,0.72) 64%, rgba(120,115,120,0.57) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(64%, rgba(254,254,254,0.72)), color-stop(100%, rgba(120,115,120,0.57)));
+  background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,0.72) 64%, rgba(120,115,120,0.57) 100%);
+  background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,0.72) 64%, rgba(120,115,120,0.57) 100%);
+  background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,0.72) 64%, rgba(120,115,120,0.57) 100%);
+  background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(254,254,254,0.72) 64%, rgba(120,115,120,0.57) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#787378', GradientType=0 );
+}
+
+.text, .img {
+  margin: 90px -20px;
 }
