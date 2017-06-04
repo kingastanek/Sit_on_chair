@@ -157,3 +157,46 @@ article.box {
 	padding-right: 15px;
 	padding-bottom: 30px;
 }
+
+.overlay {
+	position: relative;
+}
+
+.descriptionImage1 {
+	position: absolute;
+	top: 150px;
+	background: rgba(255, 255, 255, 0.5);
+	width: 294px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+
+.descriptionImage2 {
+	position: absolute;
+	top: 150px;
+	left: 343px;
+	background: rgba(255, 255, 255, 0.5);
+	width: 294px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+
+.p1 {
+	position: absolute;
+	top: 178px;
+	left: 15px;
+	width: 130px;
+	border-bottom: 8px solid rgb(36, 186, 159);
+}
+
+.p2 {
+	position: absolute;
+	top: 178px;
+	left: 357px;
+	width: 139px;
+	border-bottom: 8px solid rgb(36, 186, 159);
+}
