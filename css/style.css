@@ -198,5 +198,233 @@ article.box {
 	top: 178px;
 	left: 357px;
 	width: 139px;
-	border-bottom: 8px solid rgb(36, 186, 159);
+	border-bottom: 7px solid rgb(36, 186, 159);
+}
+
+.bg2 {
+	background-color: rgb(241,241,241);
+}
+
+.priceListWord {
+	font-size: 20px;
+	font-weight: 550;
+	padding-top: 30px;
+}
+.line {
+	 width: 300px;
+	 border: 4px solid rgb(36, 186, 159);
+}
+
+.basic, .standard, .advance {
+	width:30%;
+	float:left;
+	margin-right:5%;
+	height: 500px;
+	margin-top:80px;
+	border:1px solid rgb(204, 204, 204);
+	position:relative;
+	color: rgb(204, 204, 204);
+	background-color:white;
+}
+
+.standard {
+	background: rgb(36, 186, 159);
+}
+.advance {
+	margin-right: 0px;
+}
+
+.circle {
+		width:50px;
+    height:50px;
+    border-radius:25px;
+    border:1px solid rgb(204, 204, 204);
+    position:absolute;
+    left:50%;
+    margin-left:-25px;
+    background-color:white;
+}
+
+.circle2 {
+		width:50px;
+    height:50px;
+    border-radius:25px;
+    border:1px solid rgb(204, 204, 204);
+    position:absolute;
+    left:50%;
+    margin-left:-25px;
+    background-color: rgb(36, 186, 159);
+}
+
+.dot {
+		width:50%;
+    height:50%;
+    border-radius:50%;
+    background-color: rgb(204, 204, 204);
+    position:absolute;
+    left:50%;
+    margin-left:-12px;
+    top:50%;
+    margin-top:-12px;
+}
+
+.dot2 {
+		width:50%;
+    height:50%;
+    border-radius:50%;
+    background-color: white;
+    position:absolute;
+    left:50%;
+    margin-left:-12px;
+    top:50%;
+    margin-top:-12px;
+}
+
+.helpDiv {
+	position:absolute;
+	left:0;
+	right:0;
+	top:-30px;
+	text-align:center;
+}
+
+.basicWord {
+	color: rgb(36, 186, 159);
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.standardWord {
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.priceCircle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid rgb(204, 204, 204);
+	margin: 20px auto;
+	color: rgb(204, 204, 204);
+}
+
+.priceCircle2 {
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 20px auto;
+	color: rgb(36, 186, 159);
+}
+
+
+.first {
+	font-size: 40px;
+	position: absolute;
+	top: 115px;
+	left: 120px;
+	color:grey;
+	font-weight: 500;
+	color: rgb(204, 204, 204);
+}
+
+.first2 {
+	font-size: 40px;
+	position: absolute;
+	top: 115px;
+	left: 120px;
+	color: rgb(36, 186, 159);
+	font-weight: 500;
+}
+
+.second {
+	position: absolute;
+	top: 125px;
+	left: 170px;
+	font-weight: 500;
+}
+
+.third {
+	position: absolute;
+	top: 165px;
+	left: 110px;
+	font-weight: 500;
+}
+
+ul.offer li {
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+	font-weight: normal;
+	margin: 0;
+}
+
+div.basic li:nth-child(1) {
+	background-color: rgb(228, 228, 228);
+	color: rgb(163, 163, 163);
+}
+
+div.basic li:nth-child(2) {
+	background-color: rgb(241, 241, 241);
+	color: rgb(159, 159, 159);
+}
+
+div.standard li:nth-child(1) {
+	background-color: white;
+	color: rgb(167, 167, 167);
+}
+
+div.standard li:nth-child(2) {
+	background-color: rgb(241, 241, 241);
+	color: rgb(181, 181, 181);
+}
+
+div.standard li:nth-child(3) {
+	background-color: white;
+	color: rgb(167, 167, 167);
+}
+
+div.advance li:nth-child(1) {
+	background-color: rgb(228, 228, 228);
+	color: rgb(164, 164, 164);
+}
+
+div.advance li:nth-child(2) {
+	background-color: rgb(241, 241, 241);
+	color: rgb(155, 155, 155);
+}
+
+div.advance li:nth-child(3) {
+	background-color: rgb(228, 228, 228);
+	color: rgb(164, 164, 164);
+}
+
+div.advance li:nth-child(4) {
+	background-color: rgb(241, 241, 241);
+	color: rgb(155, 155, 155);
+}
+
+div.basic a, div.advance a {
+	background-color: rgb(36, 186, 159);
+	color: white;
+	position: absolute;
+	top: 450px;
+	left: -10%;
+	padding: 8px 10px;
+	font-size: 15px;
+}
+
+div.standard a {
+	background-color: white;
+	color: rgb(36, 186, 159);
+	position: absolute;
+	top: 450px;
+	left: -10%;
+	padding: 8px 15px;
+	font-size: 15px;
 }
