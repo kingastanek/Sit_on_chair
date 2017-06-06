@@ -225,6 +225,7 @@ article.box {
 	position:relative;
 	color: rgb(204, 204, 204);
 	background-color:white;
+	margin-bottom: 40px;
 }
 
 .standard {
@@ -427,4 +428,66 @@ div.standard a {
 	left: -10%;
 	padding: 8px 15px;
 	font-size: 15px;
+}
+
+input[type=text], input[type=email], input[type=textarea] {
+	display: block;
+	margin: 20px 5px;
+	border: 1px solid rgba(36, 186, 159, 0.5);
+	font-size: 20px;
+	padding: 5px;
+	width: 500px;
+	height: 50px;
+}
+
+input::placeholder {
+	color: lightgrey;
+}
+
+input[type=textarea] {
+	width: 500px;
+	height: 135px;
+	padding-bottom: 100px;
+}
+
+form {
+	float: left;
+	margin-top: 30px;
+}
+
+#redChair {
+	display: block;
+	margin: -10px 100px;
+}
+
+#form_ok {
+	border: 1px solid rgb(36, 186, 159);
+	margin-top:20px;
+	margin-left: 30px;
+}
+
+div.agree p {
+	color: lightgrey;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 230px;
+	margin-left: 10px;
+}
+
+button {
+	display: block;
+	color: white;
+	background-color: rgb(36, 186, 159);
+	font-weight: bold;
+	width: 75%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	margin: 20px 40px;
+}
+
+.agree {
+	float: left;
 }
