@@ -491,3 +491,30 @@ button {
 .agree {
 	float: left;
 }
+
+footer {
+	position: relative;
+	padding-top: 50px;
+	color: rgb(190, 190, 190);
+}
+
+footer>p {
+	float: left;
+	width: 60%;
+}
+
+.images {
+	float: left;
+	width: 20%;
+}
+
+.footerLogo p {
+	float: right;
+	margin-top: 10px;
+	width: 20%;
+}
+
+.footerLogo span {
+	font-weight: bold;
+	color: rgb(152, 152, 152);
+}
