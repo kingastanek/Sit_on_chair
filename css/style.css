@@ -109,7 +109,7 @@ div.text p {
   margin-bottom: 35px;
 }
 
-a {
+.text a {
   color: white;
   font-size: 20px;
   background-color: rgb(36, 186, 159);
@@ -448,9 +448,10 @@ div.basic a, div.advance a {
 	color: white;
 	position: absolute;
 	top: 450px;
-	left: -10%;
+	left: 35%;
 	padding: 8px 10px;
 	font-size: 15px;
+	text-decoration: none;
 }
 
 div.standard a {
@@ -458,9 +459,10 @@ div.standard a {
 	color: rgb(36, 186, 159);
 	position: absolute;
 	top: 450px;
-	left: -10%;
+	left: 35%;
 	padding: 8px 15px;
 	font-size: 15px;
+	text-decoration: none;
 }
 
 input[type=text], input[type=email], input[type=textarea] {
@@ -550,4 +552,8 @@ footer>p {
 .footerLogo span {
 	font-weight: bold;
 	color: rgb(152, 152, 152);
+}
+
+.hidden {
+	display: none;
 }

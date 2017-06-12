@@ -45,5 +45,43 @@ var p2 = document.querySelector('.p2');
   p2.classList.remove('hidden');
   })
 
+//Slider
+var leftBtn = document.querySelector('.arrow');
+console.log(leftBtn);
+var rightBtn = document.querySelector('.arrow2');
+console.log(rightBtn);
+var imgs = document.querySelectorAll('.img img');
+console.log(imgs);
+
+var index = 0;
+
+imgs[index].classList.remove('hidden');
+
+
+rightBtn.addEventListener('click', function(){
+  console.log("rigth");
+
+    imgs[index].classList.add('hidden');
+    index++;
+    if(index>imgs.length-1){
+      index = 0;
+    }
+    imgs[index].classList.remove('hidden');
+  
+})
+
+leftBtn.addEventListener('click', function(){
+
+    console.log("left");
+
+    imgs[index].classList.add('hidden');
+    index--;
+    if(index<0){
+      index = imgs.length-1;
+    }
+    imgs[index].classList.remove('hidden');
+
+  })
+
 
 })
