@@ -44,16 +44,49 @@ header {
   float: right;
 }
 
-li {
+nav>ul li {
   display: inline-block;
   margin-right: 20px;
   font-weight: 700;
   line-height: 35px;
 }
 
-li:last-child {
-  margin-right: 0;
+header .submenu {
+    position: absolute;
+    top: 3%;
+    left: 64%;
+    display: block;
+    padding-top: 20px;
+		z-index: 10;
 }
+
+.sb {
+	display: block;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+header .submenu::before {
+    display: inline-block;
+
+    border: 10px solid black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    content: ' ';
+    height: 0;
+    position: absolute;
+    left: 45px;
+    top: 0px;
+}
+
+header .submenu li {
+    background: #000;
+    padding: 10px 20px;
+}
+
 
 span {
   color: rgb(36, 186, 159);
